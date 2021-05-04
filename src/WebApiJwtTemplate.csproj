@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0.0-beta</PackageVersion>
     <PackageId>BrandonAlexander.ProjectTemplates.WebApiJwt</PackageId>
     <Title>ASP.NET Core Web API w/ JWT</Title>
     <Authors>Brandon Alexander</Authors>
@@ -10,7 +9,9 @@
     <TargetFramework>net5.0</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
-    <ContentTargetFolders>content</ContentTargetFolders>
+    <ContentTargetFolders>content</ContentTargetFolders>    
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/brandon-irl/dotnet-templates</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup>
